@@ -72,7 +72,7 @@ if (isset($_POST['User_Username'])) {
 		$CreateCode = sha1('Safety'.$User_Username.'first');
 		$CreateCode = substr($CreateCode,0,12);
 		// Aktiverings mail set up
-		$ActivatationURL = "http://localhost/HashnWeed/";
+		$ActivatationURL = "http://localhost/T-community/";
 		$WebsiteMail = "localhost@localhost.com";
 		$subject = 'Activatation mail | T-Community'; 
 		$message = 'Thanks for signing up!
